@@ -11,4 +11,8 @@ In order to understand the composition of the dataset, I have looked into univar
 ## Algorithm and Improving Accuracy:
 Once the text data has been converted to a numeric representation, it is ready to apply classification models. The most popular algorithms which are used for text classification are Multinomial Naïve Bayes and Support Vector Machines (SVM).
 I have used Naïve Bayes Algorithm in this model. It is a probability based classification method. It calculates the conditional probability for a block of words (product title) to belong to a particular class (product category). A product title is assigned to the product category for which the conditional probability is the highest
+## Output
+Eg: Input the 'Mobile' string to test and we will get its product category i,e Mobile & Accessories.
+![image](https://user-images.githubusercontent.com/54469298/114268582-6b4ffd00-9a1f-11eb-9332-5e6f33ef3914.png)
+
 
