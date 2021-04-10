@@ -8,7 +8,7 @@ The pre-processing for text data is quite different from the normal dataset. The
 The text vectorisation methods are coupled with pre-processing steps like n-grams, removing stop-words, stemming etc. n-grams takes blocks of 2 consecutive words or 3 consecutive words, in-addition to single words, while creating a TDM. Removing the stop words excludes the punctuation marks and other inconsequential words like articles (a, an, the) prepositions and conjunctions (about, among, anyhow etc.) from the TDM. Stemming prunes a word to its root. Plural becomes singular, different tense variants reduce to their simple present form.
 ## Data Visualisaton
 In order to understand the composition of the dataset, I have looked into univariate distributions (probability distribution of just one variable) by showing labels frequency with a bar plot.
-## Alogrithm and Improving Accuracy:
+## Algorithm and Improving Accuracy:
 Once the text data has been converted to a numeric representation, it is ready to apply classification models. The most popular algorithms which are used for text classification are Multinomial Naïve Bayes and Support Vector Machines (SVM).
 I have used Naïve Bayes Algorithm in this model. It is a probability based classification method. It calculates the conditional probability for a block of words (product title) to belong to a particular class (product category). A product title is assigned to the product category for which the conditional probability is the highest
 
